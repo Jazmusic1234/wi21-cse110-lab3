@@ -7,12 +7,12 @@
 [x] main
 [x] h1
 [ ] h2
-[ ] h3
+[x] h3
 [ ] section
-[ ] header
-[ ] footer
+[x] header
+[x] footer
 [ ] aside
-[ ] nav
+[x] nav
 [ ] div
 [ ] span
 [ ] hr
@@ -29,7 +29,7 @@
 [ ] code
 [ ] pre
 [x] a
-[ ] br
+[x] br
 [ ] img
 [ ] picture
 [ ] iframe
