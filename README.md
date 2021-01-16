@@ -14,28 +14,28 @@
 [x] aside
 [x] nav
 [x] div
-[ ] span
+[x] span
 [x] hr
 [x] p
 [x] ul
 [x] ol
 [x] li
-[ ] figure
-[ ] figcaption
+[x] figure
+[x] figcaption
 [x] b
 [x] i
-[ ] strong
+[x] strong
 [x] em
-[ ] code
-[ ] pre
+[x] code
+[x] pre
 [x] a
 [x] br
-[ ] img
-[ ] picture
+[x] img
+[x] picture
 [ ] iframe
 [ ] audio
 [ ] video
-[ ] source
+[x] source
 [ ] canvas
 [ ] svg
 [ ] form
@@ -48,10 +48,10 @@
 [ ] datalist
 [ ] select
 [ ] option
-[ ] table
-[ ] tr
-[ ] td
-[ ] th
+[x] table
+[x] tr
+[x] td
+[x] th
 [ ] caption
 [ ] col
 [ ] colgroup
