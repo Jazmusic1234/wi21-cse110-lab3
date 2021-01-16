@@ -263,10 +263,14 @@
     
     Please fill out this survey!
     <form>
-      <label for="fname">First Name: </label><br>
-      <input type="text"><br>
-      <label for="lname">Last Name: </label><br>
-      <input type="text"><br>
+      <fieldset>
+        <legend>Sign in here!</legend>
+        <label for="uname">Username: </label><br>
+        <input type="text"><br>
+        <label for="pword">Password: </label><br>
+        <input type="password"><br>
+      </fieldset>
+      
 
       <label for="ratewebsite">How would you rate my website on a scale of 1 to 5?</label><br>
         <input type="radio" id="1" value="1">
@@ -279,6 +283,28 @@
         <label for="4">4 (Good)</label><br>
         <input type="radio" id="5" value="5">5 (Amazing!)<br>
         <label for="5">5 (Amazing!)</label><br>
+      
+      <p>How can I improve this website?</p>
+      <textarea name="improve" cols="30" rows="3">Let me know what you think...</textarea>
+      
+      <label for="favoritefood">Choose your favorite food:</label>
+      <select name="favoritefood" id="favoritefood">
+        <optgroup label="breakfast">
+          <option value="cereal">Cereal</option>
+          <option value="toast">Toast</option>
+          <option value="omelet">Omelet</option>
+        </optgroup>
+        <optgroup label="dinner">
+          <option value="sushi">Sushi</option>
+          <option value="macNCheese">Mac n' Cheese</option>
+          <option value="burger">Burger</option>
+        </optgroup>
+        <optgroup label="dessert">
+          <option value="iceCream">Ice Cream</option>
+          <option value="cupcakes">Cupcakes</option>
+          <option value="brownies">Brownies</option>
+        </optgroup>
+      </select>
     </form>
     <button type="button">Submit!</button>
   </footer>
