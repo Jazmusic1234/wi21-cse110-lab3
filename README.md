@@ -32,22 +32,22 @@
 [x] br
 [x] img
 [x] picture
-[ ] iframe
-[ ] audio
-[ ] video
+[x] iframe
+[x] audio
+[x] video
 [x] source
-[ ] canvas
-[ ] svg
-[ ] form
-[ ] optgroup
-[ ] label
-[ ] fieldset
-[ ] legend
+[x] canvas
+[x] svg
+[x] form
+[x] optgroup
+[x] label
+[x] fieldset
+[x] legend
 [ ] input* (10 type attributes)
-[ ] textarea
+[x] textarea
 [ ] datalist
-[ ] select
-[ ] option
+[x] select
+[x] option
 [x] table
 [x] tr
 [x] td
@@ -57,5 +57,5 @@
 [ ] colgroup
 [ ] details
 [ ] summary
-[ ] button
+[x] button
 [ ] template
