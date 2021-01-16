@@ -6,26 +6,26 @@
 [x] body
 [x] main
 [x] h1
-[ ] h2
+[x] h2
 [x] h3
-[ ] section
+[x] section
 [x] header
 [x] footer
-[ ] aside
+[x] aside
 [x] nav
-[ ] div
+[x] div
 [ ] span
-[ ] hr
+[x] hr
 [x] p
-[ ] ul
-[ ] ol
-[ ] li
+[x] ul
+[x] ol
+[x] li
 [ ] figure
 [ ] figcaption
-[ ] b
-[ ] i
+[x] b
+[x] i
 [ ] strong
-[ ] em
+[x] em
 [ ] code
 [ ] pre
 [x] a
