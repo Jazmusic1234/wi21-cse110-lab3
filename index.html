@@ -30,9 +30,9 @@
 
     <div>
       <h3>Favorite quotes:</h3>
-      <i>This too shall pass</i>
+      <i>This too shall pass</i><br>
       <audio controls>
-        <source src="quote.m4a" type="audio/mpeg4">
+        <source src="quote.m4a" type="audio/mpeg">
       </audio>
     </div>
 
@@ -81,8 +81,8 @@
       </code>
       <li>Python</li>
       <code>
-        def helloWorld():
-          print("Hello World!")
+        def helloWorld():<br>
+          print("Hello World!")<br>
 
         helloWorld()
       </code>
@@ -112,13 +112,15 @@
     <label for="cybersecurity">Cybersecurity</label><br>
     <input type="checkbox" id="ml">
     <label for="ml">Machine Learning</label><br>
+
+    <canvas width="200" height="150"></canvas>
   </sec>
   
   <hr/>
 
   <sec id="projects">
     <h2>Projects</h2>
-    <pre>Check out my <a href="https://lizard-lightning-slayer.glitch.me/FinalProject/">protfolio website</a>!</pre>
+    <pre>Check out my <a href="https://lizard-lightning-slayer.glitch.me/FinalProject/">portfolio website</a>!</pre>
   </sec>
 
   <hr/>
@@ -127,7 +129,7 @@
     <h2>Extracurriculars</h2>
     <picture>
       <source media="(min-width: 450px)" srcset="./images/WarrenGrow_Banner.jpg">
-      <source media="(min-width: 650px)" srcest="./images/WarrenGrow_Logo.jpg">
+      <source media="(min-width: 650px)" srcset="./images/WarrenGrow_Logo.jpg">
     </picture>
     <h3>Warren Grow!</h3>
     <ul>
@@ -140,12 +142,12 @@
       <source media="(min-width: 400px)" srcset="./images/CSA_ABB_Final.png">
     </picture>
     Computer Science for Agriculture
-     Anaerobic Digester Box: Automatic refilling of the anaerobic digester’s reservoir so it didn’t have to be manually refilled
-          <ul>
-            <li>Wired together the circuit board, Arduino, LCD screen, relay, and sensor</li>
-            <li>Programmed Arduino to read and display water level onto the LCD screen</li>
-            <li>Programmed Arduino to turn on the pump when the water level was low</li>
-          </ul> 
+      Anaerobic Digester Box: Automatic refilling of the anaerobic digester’s reservoir so it didn’t have to be manually refilled
+      <ul>
+        <li>Wired together the circuit board, Arduino, LCD screen, relay, and sensor</li>
+        <li>Programmed Arduino to read and display water level onto the LCD screen</li>
+        <li>Programmed Arduino to turn on the pump when the water level was low</li>
+      </ul>
 
     <img src="images/Rogers_logo.png" alt="RUF logo">
     Roger's Urban Farmlab
@@ -251,9 +253,33 @@
   <hr/>
 
   <footer>
+    <svg width="50" height="50">
+      <rect x="50" y="20" rx="20" ry="20" width="150" height="150" style="fill:black;stroke:purple;stroke-width: 10"/>
+    </svg>
     <h3>Contact Me</h3>
     <p><strong>Email:</strong> jasmine.chen8@yahoo.com</p>
-    <iframe src="http://www.linkedin.com/in/chencjasmine" title="LinkedIn">LinkedIn</iframe>
-    <iframe src="https://github.com/Jazmusic1234" title="Github">Github</iframe>
+    <iframe src="https://www.linkedin.com/in/chencjasmine" title="LinkedIn"></iframe>
+    <iframe src="https://github.com/Jazmusic1234" title="Github"></iframe>
+    
+    Please fill out this survey!
+    <form>
+      <label for="fname">First Name: </label><br>
+      <input type="text"><br>
+      <label for="lname">Last Name: </label><br>
+      <input type="text"><br>
+
+      <label for="ratewebsite">How would you rate my website on a scale of 1 to 5?</label><br>
+        <input type="radio" id="1" value="1">
+        <label for="1">1 (Terrible)</label><br>
+        <input type="radio" id="2" value="2">2 (Meh)<br>
+        <label for="2">2 (Meh)</label><br>
+        <input type="radio" id="3" value="3">3 (It's ok)<br>
+        <label for="3">3 (It's ok)</label><br>
+        <input type="radio" id="4" value="4">4 (Good)<br>
+        <label for="4">4 (Good)</label><br>
+        <input type="radio" id="5" value="5">5 (Amazing!)<br>
+        <label for="5">5 (Amazing!)</label><br>
+    </form>
+    <button type="button">Submit!</button>
   </footer>
 </body>
