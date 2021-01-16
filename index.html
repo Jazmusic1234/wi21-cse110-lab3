@@ -158,8 +158,11 @@
 
   <hr/>
 
-  <h2>My Schedule</h2>
   <table>
+    <caption style="text-align: center;">My Schedule</caption>
+    <colgroup>
+      <col style="background-color: rgb(224, 181, 235);"
+    </colgroup>
     <tr>
       <th></th>
       <th scope="col">Monday</th>
@@ -305,6 +308,20 @@
           <option value="brownies">Brownies</option>
         </optgroup>
       </select>
+
+      <p>Upload a picture of your favorite food</p>
+      <input type="file" name="foodpic"/><br>
+      <input type="submit" value="Upload"/>
+
+      <label for="languages">Pick your favorite programming language:</label>
+      <datalist id="languages">
+        <option value="C/C++"></option>
+        <option value="Python"></option>
+        <option value="Javascript"></option>
+        <option value="Java"></option>
+        <option value="PHP"></option>
+        <option value="other"></option>
+      </datalist>
     </form>
     <button type="button">Submit!</button>
   </footer>
