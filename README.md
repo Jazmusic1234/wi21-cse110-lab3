@@ -43,18 +43,18 @@
 [x] label
 [x] fieldset
 [x] legend
-[ ] input* (10 type attributes)
+[ ] input* (10 type attributes) file,submit,text,password,radio,checkbox
 [x] textarea
-[ ] datalist
+[x] datalist
 [x] select
 [x] option
 [x] table
 [x] tr
 [x] td
 [x] th
-[ ] caption
-[ ] col
-[ ] colgroup
+[x] caption
+[x] col
+[x] colgroup
 [ ] details
 [ ] summary
 [x] button
