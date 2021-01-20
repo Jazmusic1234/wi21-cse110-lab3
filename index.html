@@ -12,16 +12,17 @@
 
     <!--Header and navbar-->
     <header>
-      <div>
+      <div class="logo">
         <img src="images/JC_Logo.png" alt="logo">
       </div>
-      <nav>
-        <a href="#aboutme">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#ec">Extracurriculars</a>
+      <nav class="nav">
+        <a href="#aboutme" class="nav__link">About Me</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#ec" class="nav__link">Extracurriculars</a>
       </nav>
     </header>
+
     <main>
       <img src="./images/20190623_120820_HDR.jpg" alt="picture of me">
       <h1>Hi, I'm Jasmine!</h1>
@@ -32,10 +33,10 @@
   
     <!--About Me-->
     <sec id="aboutme">
-      <h2>About Me</h2>
+      <h2 class="section__title">About Me</h2>
     
       <div>
-        <h3>Favorite quotes:</h3>
+        <p class="section__subtitle">Favorite quotes:</p>
         <i>This too shall pass</i><br>
         <audio controls>
           <source src="quote.m4a" type="audio/mpeg">
@@ -43,7 +44,7 @@
       </div>
     
       <div>
-        <h3>Hobbies/Interests:</h3>
+        <p class="section__subtitle">Hobbies/Interests:</p>
         <ul>
           <li><span style="color:lightgreen">Gardening</span></li>
           <li>Urban Farming</li>
@@ -75,8 +76,8 @@
     
     <!--Skills-->
     <sec id="skills">
-      <h2>Skills</h2>
-      <h3>Top 3</h3>
+      <h2 class="section__title">Skills</h2>
+      <p class="section__subtitle">Top 3</p>
       <ol>
         <li>C/C++</li>
         <code>
@@ -131,7 +132,7 @@
     
     <!--Projects-->
     <sec id="projects">
-      <h2>Projects</h2>
+      <h2 class="section__title">Projects</h2>
       <pre>Check out my <a href="https://lizard-lightning-slayer.glitch.me/FinalProject/">portfolio website</a>!</pre>
     </sec>
     
@@ -139,33 +140,42 @@
     
     <!--Extracurriculars-->
     <sec id="ec">
-      <h2>Extracurriculars</h2>
-      <picture>
-        <img width="200" src="images/WarrenGrow_Banner.jpg" alt="Warren Grow logo">
-        <source media="(min-width: 650px)" srcset="images/WarrenGrow_Logo.jpg">
-      </picture>
-      <h3>Warren Grow!</h3>
-      <ul>
-        <li>Food-insecurity Resource Market: Invited speakers from different food insecurity related organization on and around UCSD campus to speak to 300+ students about how they help combat food insecurity</li>
-        <li>Composting: Students and community members can drop off their organic food waste at the garden which we then process into compost for the garden</li>
-      </ul>
+      <h2 class="section__title">Extracurriculars</h2>
+
+      <div class="ECs">
+        <div class="EC">
+          <picture>
+            <img width="200" src="images/WarrenGrow_Banner.jpg" alt="Warren Grow logo">
+            <source media="(min-width: 650px)" srcset="images/WarrenGrow_Logo.jpg">
+          </picture>
+          <h3>Warren Grow!</h3>
+          <ul>
+            <li>Food-insecurity Resource Market: Invited speakers from different food insecurity related organization on and around UCSD campus to speak to 300+ students about how they help combat food insecurity</li>
+            <li>Composting: Students and community members can drop off their organic food waste at the garden which we then process into compost for the garden</li>
+          </ul>
+        </div>
+
+        <div class="EC">
+          <picture>
+            <img width="200" src="images/CSA_Final.jpg" alt="CSA logo">
+            <source media="(min-width: 400px)" srcset="images/CSA_ABB_Final.png">
+          </picture>
+          <h3>Computer Science for Agriculture</h3>
+            Anaerobic Digester Box: Automatic refilling of the anaerobic digester’s reservoir so it didn’t have to be manually refilled
+            <ul>
+              <li>Wired together the circuit board, Arduino, LCD screen, relay, and sensor</li>
+              <li>Programmed Arduino to read and display water level onto the LCD screen</li>
+              <li>Programmed Arduino to turn on the pump when the water level was low</li>
+            </ul>
+        </div>
+        <div class="EC">
+          <img src="images/Rogers_logo.png" alt="RUF logo">
+          <h3>Roger's Urban Farmlab</h3>
+            <iframe width="320" height="240"
+              src="https://www.youtube.com/embed/m5VFY3RqRcs"></iframe>
+        </div>
+      </div>
     
-      <picture>
-        <img width="200" src="images/CSA_Final.jpg" alt="CSA logo">
-        <source media="(min-width: 400px)" srcset="images/CSA_ABB_Final.png">
-      </picture>
-      <h3>Computer Science for Agriculture</h3>
-        Anaerobic Digester Box: Automatic refilling of the anaerobic digester’s reservoir so it didn’t have to be manually refilled
-        <ul>
-          <li>Wired together the circuit board, Arduino, LCD screen, relay, and sensor</li>
-          <li>Programmed Arduino to read and display water level onto the LCD screen</li>
-          <li>Programmed Arduino to turn on the pump when the water level was low</li>
-        </ul>
-    
-      <img src="images/Rogers_logo.png" alt="RUF logo">
-      <h3>Roger's Urban Farmlab</h3>
-      <iframe width="320" height="240"
-        src="https://www.youtube.com/embed/m5VFY3RqRcs"></iframe>
     </sec>
     
     <hr/>
