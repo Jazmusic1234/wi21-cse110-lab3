@@ -1,8 +1,8 @@
 ---
 name: Custom issue template
-about: CSS issues
+about: Selector issues
 title: ''
-labels: css
+labels: Selectors
 assignees: Jazmusic1234
 
 ---
