@@ -1,324 +1,339 @@
 <!DOCTYPE html>
 
-<head>
-  <title>CSE 110 Lab 2</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <header>
-    <nav>
-      <a href="#aboutme">About Me</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#ec">Extracurriculars</a>
-    </nav>
-  </header>
-  <main>
-    <img src="./images/20190623_120820_HDR.jpg" alt="picture of me">
-    <h1>Hi, I'm Jasmine!</h1>
-    <p>3rd Year Computer Engineering major at UCSD</p>
-    <a href="https://github.com/Jazmusic1234/CSE110">View the Project on Github</a>
-  </main>  
-  <hr/>
-</body>
-
-<sec id="aboutme">
-  <h2>About Me</h2>
-
-  <div>
-    <h3>Favorite quotes:</h3>
-    <i>This too shall pass</i><br>
-    <audio controls>
-      <source src="quote.m4a" type="audio/mpeg">
-    </audio>
-  </div>
-
-  <div>
-    <h3>Hobbies/Interests:</h3>
-    <ul>
-      <li><span style="color:lightgreen">Gardening</span></li>
-      <li>Urban Farming</li>
-      <li>Food security</li>
-      <li>Electronics repair</li>
-      <li>Sustainability</li>
-      <li>Netflix</li>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/54srZLuYfb0"></iframe>        
-      <li>Reading</li>
-      <aside>
-        <h4>Book List</h4>
-        <input type="checkbox" id="graceling">
-        <label for="graceling">Graceling by Kristen Cashore</label><br>
-        <input type="checkbox" id="fire">
-        <label for="fire">Fire by Kristen Cashore</label><br>
-        <input type="checkbox" id="bitterblue">
-        <label for="bitterblue">Bitterblue by Kristen Cashore</label><br>
-        <input type="checkbox" id="mindhacking">
-        <label for="mindhacking">Mind hacking by John Hargrave</label><br>
-      </aside>
-    </ul>
-  </div>
-  <video width="320" height="240" controls>
-    <source src="632381180.028953.mp4" type="video/mp4">
-  </video>
-</sec>
-
-<hr/>
-
-<sec id="skills">
-  <h2>Skills</h2>
-  <h3>Top 3</h3>
-  <ol>
-    <li>C/C++</li>
-    <code>
-      void helloWorld() {
-        cout &lt;&lt; "Hello World!" &lt;&lt; endl;
-      }
-    </code>
-    <li>Arduino</li>
-    <code>
-      void helloWorld() {
-        Serial.println("Hello World!");
-      }
-    </code>
-    <li>Python</li>
-    <code>
-      def helloWorld():<br>
-        print("Hello World!")<br>
-
-      helloWorld()
-    </code>
-  </ol>
-  <ul>
-    <li>Java</li>
-    <li>Vim</li>
-    <li>HTMl</li>
-    <li>CSS/Bootstrap</li>
-    <li>Javascript</li>
-    <li>Git</li>
-    <li>Solidworks</li>
-    <li>Adobe XD</li>
-  </ul>
-
-  <figure>
-    <img src="./images/Main_V2.png" alt="RUF flyer">
-    <figcaption>Flyer for one of my student orgs that I made using Adobe XD</figcaption>
-  </figure>
-
-  <em>Skills to Learn</em><br>
-  <input type="checkbox" id="react">
-  <label for="react">ReactJS</label><br>
-  <input type="checkbox" id="vue">
-  <label for="vue">VueJS</label><br>
-  <input type="checkbox" id="cybersecurity">
-  <label for="cybersecurity">Cybersecurity</label><br>
-  <input type="checkbox" id="ml">
-  <label for="ml">Machine Learning</label><br>
-
-  <canvas width="200" height="150" style="background-color: blueviolet;"></canvas>
-</sec>
-
-<hr/>
-
-<sec id="projects">
-  <h2>Projects</h2>
-  <pre>Check out my <a href="https://lizard-lightning-slayer.glitch.me/FinalProject/">portfolio website</a>!</pre>
-</sec>
-
-<hr/>
-
-<sec id="ec">
-  <h2>Extracurriculars</h2>
-  <picture>
-    <img width="200" src="images/WarrenGrow_Banner.jpg" alt="Warren Grow logo">
-    <source media="(min-width: 650px)" srcset="images/WarrenGrow_Logo.jpg">
-  </picture>
-  <h3>Warren Grow!</h3>
-  <ul>
-    <li>Food-insecurity Resource Market: Invited speakers from different food insecurity related organization on and around UCSD campus to speak to 300+ students about how they help combat food insecurity</li>
-    <li>Composting: Students and community members can drop off their organic food waste at the garden which we then process into compost for the garden</li>
-  </ul>
-
-  <picture>
-    <img width="200" src="images/CSA_Final.jpg" alt="CSA logo">
-    <source media="(min-width: 400px)" srcset="images/CSA_ABB_Final.png">
-  </picture>
-  <h3>Computer Science for Agriculture</h3>
-    Anaerobic Digester Box: Automatic refilling of the anaerobic digester’s reservoir so it didn’t have to be manually refilled
-    <ul>
-      <li>Wired together the circuit board, Arduino, LCD screen, relay, and sensor</li>
-      <li>Programmed Arduino to read and display water level onto the LCD screen</li>
-      <li>Programmed Arduino to turn on the pump when the water level was low</li>
-    </ul>
-
-  <img src="images/Rogers_logo.png" alt="RUF logo">
-  <h3>Roger's Urban Farmlab</h3>
-  <iframe width="320" height="240"
-    src="https://www.youtube.com/embed/m5VFY3RqRcs"></iframe>
-</sec>
-
-<hr/>
-
-<table border="2">
-  <caption style="text-align: center;">My Schedule</caption>
-  <colgroup>
-    <col style="background-color: rgb(224, 181, 235);">
-  </colgroup>
-  <tr>
-    <th></th>
-    <th scope="col">Monday</th>
-    <th scope="col">Tuesday</th>
-    <th scope="col">Wednesday</th>
-    <th scope="col">Thursday</th>
-    <th scope="col">Friday</th>
-  </tr>
-  <tr>
-    <th scope="row">9am</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>ECE 101 DI</td>
-  </tr>
-  <tr>
-    <th scope="row">10am</th>
-    <td>CSE 110 LE</td>
-    <td></td>
-    <td>CSE 110 LE</td>
-    <td></td>
-    <td>CSE 110 LE</td>
-  </tr>
-  <tr>
-    <th scope="row">11am</th>
-    <td></td>
-    <td rowspan="2">ECE 101 LE</td>
-    <td></td>
-    <td rowspan="2">ECE 101 LE</td>
-    <td></td>
-  </tr>
-  <tr>
-    <th scope="row">12pm</th>
-    <td>POLI 28 LE</td>
-    <td>POLI 28 LE</td>
-    <td></td>
-  </tr>
-  <tr>
-    <th scope="row">1pm</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <th scope="row">2pam</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <th scope="row">3pm</th>
-    <td></td>
-    <td rowspan="3">CSE 110 LAB</td>
-    <td>POLI 28 DI</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <th scope="row">4pm</th>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <th scope="row">5pm</th>
-    <td rowspan="2">ECE 111 LE</td>
-    <td></td>
-    <td rowspan="2">ECE 111 LE</td>
-    <td></td>
-  </tr>
-  <tr>
-    <th scope="row">6pm</th>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
-<hr/>
-
-<footer>
-  <svg width="120" height="120">
-    <rect x="20" y="20" rx="20" ry="20" width="80" height="80" style="fill:black;stroke:rgb(106, 22, 122);stroke-width: 5"/>
-  </svg>
-  <h3>Contact Me</h3>
-  <p><strong>Email:</strong> jasmine.chen8@yahoo.com</p>
-  <a href="//www.linkedin.com/in/chencjasmine">LinkedIn</a>
-  <a href="//github.com/Jazmusic1234">Github</a><br>
+<html lang="en">
+  <head>
+    <title>CSE 110 Lab 3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
   
-  <h2>Please fill out this survey!</h2>
-  <form>
-    <fieldset>
-      <legend>Sign in here!</legend>
-      <label for="uname">Username: </label><br>
-      <input type="text" id="uname"><br>
-      <label for="pword">Password: </label><br>
-      <input type="password" id="pword"><br>
-    </fieldset><br>
-    
+  <body>
 
-    <label>How would you rate my website on a scale of 1 to 5?</label><br>
-      <input type="radio" id="1" value="1">
-      <label for="1">1 (Terrible)</label><br>
-      <input type="radio" id="2" value="2">
-      <label for="2">2 (Meh)</label><br>
-      <input type="radio" id="3" value="3">
-      <label for="3">3 (It's ok)</label><br>
-      <input type="radio" id="4" value="4">
-      <label for="4">4 (Good)</label><br>
-      <input type="radio" id="5" value="5">
-      <label for="5">5 (Amazing!)</label><br>
+    <!--Header and navbar-->
+    <header>
+      <div>
+        <img src="images/JC_Logo.png" alt="logo">
+      </div>
+      <nav>
+        <a href="#aboutme">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#ec">Extracurriculars</a>
+      </nav>
+    </header>
+    <main>
+      <img src="./images/20190623_120820_HDR.jpg" alt="picture of me">
+      <h1>Hi, I'm Jasmine!</h1>
+      <p>3rd Year Computer Engineering major at UCSD</p>
+      <a href="https://github.com/Jazmusic1234/CSE110">View the Project on Github</a>
+    </main>  
+    <hr/>
+  
+    <!--About Me-->
+    <sec id="aboutme">
+      <h2>About Me</h2>
     
-    <p>How can I improve this website?</p>
-    <textarea name="improve" cols="30" rows="3">Let me know what you think...</textarea><br><br>
+      <div>
+        <h3>Favorite quotes:</h3>
+        <i>This too shall pass</i><br>
+        <audio controls>
+          <source src="quote.m4a" type="audio/mpeg">
+        </audio>
+      </div>
     
-    <label for="favoritefood">Choose your favorite food:</label>
-    <select name="favoritefood" id="favoritefood">
-      <optgroup label="breakfast">
-        <option value="cereal">Cereal</option>
-        <option value="toast">Toast</option>
-        <option value="omelet">Omelet</option>
-      </optgroup>
-      <optgroup label="dinner">
-        <option value="sushi">Sushi</option>
-        <option value="macNCheese">Mac n' Cheese</option>
-        <option value="burger">Burger</option>
-      </optgroup>
-      <optgroup label="dessert">
-        <option value="iceCream">Ice Cream</option>
-        <option value="cupcakes">Cupcakes</option>
-        <option value="brownies">Brownies</option>
-      </optgroup>
-    </select><br>
+      <div>
+        <h3>Hobbies/Interests:</h3>
+        <ul>
+          <li><span style="color:lightgreen">Gardening</span></li>
+          <li>Urban Farming</li>
+          <li>Food security</li>
+          <li>Electronics repair</li>
+          <li>Sustainability</li>
+          <li>Netflix</li>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/54srZLuYfb0"></iframe>        
+          <li>Reading</li>
+          <aside>
+            <h4>Book List</h4>
+            <input type="checkbox" id="graceling">
+            <label for="graceling">Graceling by Kristen Cashore</label><br>
+            <input type="checkbox" id="fire">
+            <label for="fire">Fire by Kristen Cashore</label><br>
+            <input type="checkbox" id="bitterblue">
+            <label for="bitterblue">Bitterblue by Kristen Cashore</label><br>
+            <input type="checkbox" id="mindhacking">
+            <label for="mindhacking">Mind hacking by John Hargrave</label><br>
+          </aside>
+        </ul>
+      </div>
+      <video width="320" height="240" controls>
+        <source src="632381180.028953.mp4" type="video/mp4">
+      </video>
+    </sec>
+    
+    <hr/>
+    
+    <!--Skills-->
+    <sec id="skills">
+      <h2>Skills</h2>
+      <h3>Top 3</h3>
+      <ol>
+        <li>C/C++</li>
+        <code>
+          void helloWorld() {
+            cout &lt;&lt; "Hello World!" &lt;&lt; endl;
+          }
+        </code>
+        <li>Arduino</li>
+        <code>
+          void helloWorld() {
+            Serial.println("Hello World!");
+          }
+        </code>
+        <li>Python</li>
+        <code>
+          def helloWorld():<br>
+            print("Hello World!")<br>
+    
+          helloWorld()
+        </code>
+      </ol>
+      <ul>
+        <li>Java</li>
+        <li>Vim</li>
+        <li>HTMl</li>
+        <li>CSS/Bootstrap</li>
+        <li>Javascript</li>
+        <li>Git</li>
+        <li>Solidworks</li>
+        <li>Adobe XD</li>
+      </ul>
+    
+      <figure>
+        <img src="./images/Main_V2.png" alt="RUF flyer">
+        <figcaption>Flyer for one of my student orgs that I made using Adobe XD</figcaption>
+      </figure>
+    
+      <em>Skills to Learn</em><br>
+      <input type="checkbox" id="react">
+      <label for="react">ReactJS</label><br>
+      <input type="checkbox" id="vue">
+      <label for="vue">VueJS</label><br>
+      <input type="checkbox" id="cybersecurity">
+      <label for="cybersecurity">Cybersecurity</label><br>
+      <input type="checkbox" id="ml">
+      <label for="ml">Machine Learning</label><br>
+    
+      <canvas width="200" height="150" style="background-color: blueviolet;"></canvas>
+    </sec>
+    
+    <hr/>
+    
+    <!--Projects-->
+    <sec id="projects">
+      <h2>Projects</h2>
+      <pre>Check out my <a href="https://lizard-lightning-slayer.glitch.me/FinalProject/">portfolio website</a>!</pre>
+    </sec>
+    
+    <hr/>
+    
+    <!--Extracurriculars-->
+    <sec id="ec">
+      <h2>Extracurriculars</h2>
+      <picture>
+        <img width="200" src="images/WarrenGrow_Banner.jpg" alt="Warren Grow logo">
+        <source media="(min-width: 650px)" srcset="images/WarrenGrow_Logo.jpg">
+      </picture>
+      <h3>Warren Grow!</h3>
+      <ul>
+        <li>Food-insecurity Resource Market: Invited speakers from different food insecurity related organization on and around UCSD campus to speak to 300+ students about how they help combat food insecurity</li>
+        <li>Composting: Students and community members can drop off their organic food waste at the garden which we then process into compost for the garden</li>
+      </ul>
+    
+      <picture>
+        <img width="200" src="images/CSA_Final.jpg" alt="CSA logo">
+        <source media="(min-width: 400px)" srcset="images/CSA_ABB_Final.png">
+      </picture>
+      <h3>Computer Science for Agriculture</h3>
+        Anaerobic Digester Box: Automatic refilling of the anaerobic digester’s reservoir so it didn’t have to be manually refilled
+        <ul>
+          <li>Wired together the circuit board, Arduino, LCD screen, relay, and sensor</li>
+          <li>Programmed Arduino to read and display water level onto the LCD screen</li>
+          <li>Programmed Arduino to turn on the pump when the water level was low</li>
+        </ul>
+    
+      <img src="images/Rogers_logo.png" alt="RUF logo">
+      <h3>Roger's Urban Farmlab</h3>
+      <iframe width="320" height="240"
+        src="https://www.youtube.com/embed/m5VFY3RqRcs"></iframe>
+    </sec>
+    
+    <hr/>
+    
+    <!--My Schedule-->
+    <table border="2">
+      <caption style="text-align: center;">My Schedule</caption>
+      <colgroup>
+        <col style="background-color: rgb(224, 181, 235);">
+      </colgroup>
+      <tr>
+        <th></th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+        <th scope="col">Thursday</th>
+        <th scope="col">Friday</th>
+      </tr>
+      <tr>
+        <th scope="row">9am</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>ECE 101 DI</td>
+      </tr>
+      <tr>
+        <th scope="row">10am</th>
+        <td>CSE 110 LE</td>
+        <td></td>
+        <td>CSE 110 LE</td>
+        <td></td>
+        <td>CSE 110 LE</td>
+      </tr>
+      <tr>
+        <th scope="row">11am</th>
+        <td></td>
+        <td rowspan="2">ECE 101 LE</td>
+        <td></td>
+        <td rowspan="2">ECE 101 LE</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">12pm</th>
+        <td>POLI 28 LE</td>
+        <td>POLI 28 LE</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">1pm</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">2pam</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">3pm</th>
+        <td></td>
+        <td rowspan="3">CSE 110 LAB</td>
+        <td>POLI 28 DI</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">4pm</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">5pm</th>
+        <td rowspan="2">ECE 111 LE</td>
+        <td></td>
+        <td rowspan="2">ECE 111 LE</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">6pm</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    
+    <hr/>
+  
+    <!--Footer and survey-->
+    <footer>
+      <svg width="120" height="120">
+        <rect x="20" y="20" rx="20" ry="20" width="80" height="80" style="fill:black;stroke:rgb(106, 22, 122);stroke-width: 5"/>
+      </svg>
+      <h3>Contact Me</h3>
+      <p><strong>Email:</strong> jasmine.chen8@yahoo.com</p>
+      <a href="//www.linkedin.com/in/chencjasmine">LinkedIn</a>
+      <a href="//github.com/Jazmusic1234">Github</a><br>
+      
+      <h2>Please fill out this survey!</h2>
+      <form>
+        <fieldset>
+          <legend>Sign in here!</legend>
+          <label for="uname">Username: </label><br>
+          <input type="text" id="uname"><br>
+          <label for="pword">Password: </label><br>
+          <input type="password" id="pword"><br>
+        </fieldset><br>
+        
+    
+        <label>How would you rate my website on a scale of 1 to 5?</label><br>
+          <input type="radio" id="1" value="1">
+          <label for="1">1 (Terrible)</label><br>
+          <input type="radio" id="2" value="2">
+          <label for="2">2 (Meh)</label><br>
+          <input type="radio" id="3" value="3">
+          <label for="3">3 (It's ok)</label><br>
+          <input type="radio" id="4" value="4">
+          <label for="4">4 (Good)</label><br>
+          <input type="radio" id="5" value="5">
+          <label for="5">5 (Amazing!)</label><br>
+        
+        <p>How can I improve this website?</p>
+        <textarea name="improve" cols="30" rows="3">Let me know what you think...</textarea><br><br>
+        
+        <label for="favoritefood">Choose your favorite food:</label>
+        <select name="favoritefood" id="favoritefood">
+          <optgroup label="breakfast">
+            <option value="cereal">Cereal</option>
+            <option value="toast">Toast</option>
+            <option value="omelet">Omelet</option>
+          </optgroup>
+          <optgroup label="dinner">
+            <option value="sushi">Sushi</option>
+            <option value="macNCheese">Mac n' Cheese</option>
+            <option value="burger">Burger</option>
+          </optgroup>
+          <optgroup label="dessert">
+            <option value="iceCream">Ice Cream</option>
+            <option value="cupcakes">Cupcakes</option>
+            <option value="brownies">Brownies</option>
+          </optgroup>
+        </select><br>
+    
+        <p>Upload a picture of your favorite food</p>
+        <input type="file" name="foodpic"/><br>
+        <input type="submit" value="Upload"/><br><br>
+    
+        <label for="languages">Pick your favorite programming language:</label>
+        <input list="languages" name="language" id="language">
+        <datalist id="languages">
+          <option value="C/C++"></option>
+          <option value="Python"></option>
+          <option value="Javascript"></option>
+          <option value="Java"></option>
+          <option value="PHP"></option>
+          <option value="other"></option>
+        </datalist>
+      </form><br>
+      <button type="button">Submit!</button>
+    </footer>
+  </body>
+</html>
 
-    <p>Upload a picture of your favorite food</p>
-    <input type="file" name="foodpic"/><br>
-    <input type="submit" value="Upload"/><br><br>
-
-    <label for="languages">Pick your favorite programming language:</label>
-    <input list="languages" name="language" id="language">
-    <datalist id="languages">
-      <option value="C/C++"></option>
-      <option value="Python"></option>
-      <option value="Javascript"></option>
-      <option value="Java"></option>
-      <option value="PHP"></option>
-      <option value="other"></option>
-    </datalist>
-  </form><br>
-  <button type="button">Submit!</button>
-</footer>
