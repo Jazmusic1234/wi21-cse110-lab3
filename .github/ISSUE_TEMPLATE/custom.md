@@ -2,7 +2,7 @@
 name: Custom issue template
 about: Selector issues
 title: ''
-labels: Selectors
+labels: enhancement, Selectors
 assignees: Jazmusic1234
 
 ---
