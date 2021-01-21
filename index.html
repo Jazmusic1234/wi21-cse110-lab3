@@ -12,7 +12,7 @@
 
     <!--Header and navbar-->
     <header>
-      <div class="logo">
+      <div id="JC_logo">
         <img src="images/JC_Logo.png" alt="logo">
       </div>
       <nav class="nav">
@@ -35,7 +35,7 @@
     <sec id="aboutme">
       <h2 class="section__title">About Me</h2>
     
-      <div>
+      <div id="quotes">
         <p class="section__subtitle">Favorite quotes:</p>
         <i>This too shall pass</i><br>
         <audio controls>
@@ -43,7 +43,7 @@
         </audio>
       </div>
     
-      <div>
+      <div id="hobbies_interests">
         <p class="section__subtitle">Hobbies/Interests:</p>
         <ul>
           <li><span style="color:lightgreen">Gardening</span></li>
@@ -54,17 +54,20 @@
           <li>Netflix</li>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/54srZLuYfb0"></iframe>        
           <li>Reading</li>
-          <aside>
-            <h4>Book List</h4>
-            <input type="checkbox" id="graceling">
-            <label for="graceling">Graceling by Kristen Cashore</label><br>
-            <input type="checkbox" id="fire">
-            <label for="fire">Fire by Kristen Cashore</label><br>
-            <input type="checkbox" id="bitterblue">
-            <label for="bitterblue">Bitterblue by Kristen Cashore</label><br>
-            <input type="checkbox" id="mindhacking">
-            <label for="mindhacking">Mind hacking by John Hargrave</label><br>
-          </aside>
+          <div id="book_list">
+            <aside>
+              <h4>Book List</h4>
+              <input type="checkbox" id="graceling">
+              <label for="graceling">Graceling by Kristen Cashore</label><br>
+              <input type="checkbox" id="fire">
+              <label for="fire">Fire by Kristen Cashore</label><br>
+              <input type="checkbox" id="bitterblue">
+              <label for="bitterblue">Bitterblue by Kristen Cashore</label><br>
+              <input type="checkbox" id="mindhacking">
+              <label for="mindhacking">Mind hacking by John Hargrave</label><br>
+            </aside>
+          </div>
+          
         </ul>
       </div>
       <video width="320" height="240" controls>
@@ -145,10 +148,10 @@
       <div class="ECs">
         <div class="EC">
           <picture>
-            <img width="200" src="images/WarrenGrow_Banner.jpg" alt="Warren Grow logo">
+            <img class="logo" width="200" src="images/WarrenGrow_Banner.jpg" alt="Warren Grow logo">
             <source media="(min-width: 650px)" srcset="images/WarrenGrow_Logo.jpg">
           </picture>
-          <h3>Warren Grow!</h3>
+          <h3 class="section__subtitle">Warren Grow!</h3>
           <ul>
             <li>Food-insecurity Resource Market: Invited speakers from different food insecurity related organization on and around UCSD campus to speak to 300+ students about how they help combat food insecurity</li>
             <li>Composting: Students and community members can drop off their organic food waste at the garden which we then process into compost for the garden</li>
@@ -157,10 +160,10 @@
 
         <div class="EC">
           <picture>
-            <img width="200" src="images/CSA_Final.jpg" alt="CSA logo">
+            <img class="logo" width="200" src="images/CSA_Final.jpg" alt="CSA logo">
             <source media="(min-width: 400px)" srcset="images/CSA_ABB_Final.png">
           </picture>
-          <h3>Computer Science for Agriculture</h3>
+          <h3 class="section__subtitle">Computer Science for Agriculture</h3>
             Anaerobic Digester Box: Automatic refilling of the anaerobic digester’s reservoir so it didn’t have to be manually refilled
             <ul>
               <li>Wired together the circuit board, Arduino, LCD screen, relay, and sensor</li>
@@ -169,8 +172,8 @@
             </ul>
         </div>
         <div class="EC">
-          <img src="images/Rogers_logo.png" alt="RUF logo">
-          <h3>Roger's Urban Farmlab</h3>
+          <img class="logo" src="images/Rogers_logo.png" alt="RUF logo">
+          <h3 class="section__subtitle">Roger's Urban Farmlab</h3>
             <iframe width="320" height="240"
               src="https://www.youtube.com/embed/m5VFY3RqRcs"></iframe>
         </div>
