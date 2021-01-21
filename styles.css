@@ -1,12 +1,18 @@
+/* Elements */
+
 body {
 
 }
 
 hr {
 
-/* Classes */
+}
+
+label {
 
 }
+
+/* Classes */
 
 .logo {
   
@@ -67,6 +73,28 @@ hr {
 }
 
 #ec {
+
+}
+
+/* Attributes */
+
+button[type="button"] {
+
+}
+
+input[type="checkbox"] {
+
+}
+
+input[type="radio"] {
+
+}
+
+input[type="text"] {
+  
+}
+
+input[type="password"] {
 
 }
 
