@@ -1,5 +1,5 @@
 :root {
-  --ff-primary: Roboto;
+  --ff-primary: 'Roboto', sans-serif;
   --ff-secondary: ;
 
   --fw-reg: 300;
@@ -99,6 +99,14 @@ label {
   border-radius: 20px;
   border-color: var(--clr-dark);
   color: var(--clr-light);
+  width: 200px;
+  height: 200px;
+  padding: 2mm;
+  text-align: center;
+}
+
+sec h3 {
+  text-decoration: underline;
 }
 
 #skills {
