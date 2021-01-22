@@ -20,11 +20,12 @@
 /* Elements */
 
 body {
-
+  background: var(--clr-light);
+  color: var(--clr-dark);
 }
 
 hr {
-
+  border: 1px solid var(--clr-accent2);
 }
 
 label {
@@ -42,7 +43,12 @@ label {
 }
 
 *.nav__link {
+  color: var(--clr-accent1);
+}
 
+.section__dark {
+  background: var(--clr-dark);
+  color: var(--clr-light);
 }
 
 *.section__title {
@@ -80,7 +86,8 @@ label {
 }
 
 #book_list {
-
+  background-color: var(--clr-accent2);
+  color: var(--clr-light);
 }
 
 #skills {
