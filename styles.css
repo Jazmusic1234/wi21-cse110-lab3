@@ -32,6 +32,11 @@ label {
 
 }
 
+header {
+  width: 80%;
+  height: 80%;
+}
+
 /* Classes */
 
 .logo {
@@ -47,7 +52,7 @@ label {
 }
 
 *.section__dark {
-  margin: 0;
+  margin: 0em;
   background-color: var(--clr-dark);
   color: var(--clr-light);
 }
@@ -72,7 +77,8 @@ label {
 
 #JC_logo {
   display: block;
-  size: 50px 50px;
+  height: 100px;
+  width: 100px;
 }
 
 #picOfMe {
