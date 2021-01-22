@@ -1,13 +1,15 @@
 :root {
   --ff-primary: 'Roboto', sans-serif;
-  --ff-secondary: ;
+  --ff-secondary: 'Raleway', sans-serif;
 
   --fw-reg: 300;
   --fw-bold: 800;
 
   --clr-light: white;
+  --clr-gray1: #B7B7B7;
+  --clr-gray2: #707070;
   --clr-dark: rgb(34, 33, 36);
-  --clr-accent1: #764bd1;
+  --clr-accent1: #6246EA;
   --clr-accent2: hsl(261, 81%, 19%);
 
   --fs-h1: 3rem;
@@ -37,8 +39,18 @@ header {
   height: 80%;
 }
 
+main {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 main > p {
   font-family: var(--ff-primary);
+}
+
+div {
+  border: thick, solid, black;
 }
 
 h1 {
@@ -53,6 +65,10 @@ h3 {
   font-size: var(--fs-h3);
 }
 
+header + img {
+  height: 25%;
+}
+
 /* Classes */
 
 .greeting {
@@ -60,7 +76,12 @@ h3 {
 }
 
 .logo {
-  
+  padding: auto;
+}
+
+.JC_logo {
+  height: 120px;
+  width: 120px;
 }
 
 .nav {
@@ -69,6 +90,13 @@ h3 {
 
 *.nav__link {
   color: var(--clr-accent1);
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-reg);
 }
 
 *.section__dark {
@@ -102,10 +130,6 @@ h3 {
   display: block;
   height: 100px;
   width: 100px;
-}
-
-#picOfMe {
-
 }
 
 #aboutme {
