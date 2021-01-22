@@ -11,7 +11,7 @@
   --clr-accent2: hsl(261, 81%, 19%);
 
   --fs-h1: 3rem;
-  --f2-h2: 2.25rem;
+  --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
 
@@ -37,7 +37,27 @@ header {
   height: 80%;
 }
 
+main > p {
+  font-family: var(--ff-primary);
+}
+
+h1 {
+  font-size: var(--fs-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
 /* Classes */
+
+.greeting {
+  font-size: var(--fs-h1);
+}
 
 .logo {
   
@@ -58,11 +78,14 @@ header {
 }
 
 *.section__title {
-
+  margin-bottom: 2px;
+  font-size: var(--fs-h2);
+  font-family: var(--ff-primary);
 }
 
 *.section__subtitle {
-
+  margin: 0;
+  font-size: var(--fs-h3);
 }
 
 .ECs {
@@ -70,7 +93,7 @@ header {
 }
 
 .EC {
-
+  height: auto;
 }
 
 /* IDs */
@@ -105,8 +128,8 @@ header {
   border-radius: 20px;
   border-color: var(--clr-dark);
   color: var(--clr-light);
-  width: 200px;
-  height: 200px;
+  width: 5cm;
+  height: 6cm;
   padding: 2mm;
   text-align: center;
 }
