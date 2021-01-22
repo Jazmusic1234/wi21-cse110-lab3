@@ -75,6 +75,10 @@ label {
   size: 50px 50px;
 }
 
+#picOfMe {
+
+}
+
 #aboutme {
 
 }
@@ -92,6 +96,7 @@ label {
   opacity: 0.5;
   border-style: dotted;
   border-width: 5px;
+  border-radius: 20px;
   border-color: var(--clr-dark);
   color: var(--clr-light);
 }
