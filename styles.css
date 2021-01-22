@@ -1,6 +1,6 @@
 :root {
-  --ff-primary: "";
-  --ff-secondary: "";
+  --ff-primary: Roboto;
+  --ff-secondary: ;
 
   --fw-reg: 300;
   --fw-bold: 800;
@@ -46,8 +46,9 @@ label {
   color: var(--clr-accent1);
 }
 
-.section__dark {
-  background: var(--clr-dark);
+*.section__dark {
+  margin: 0;
+  background-color: var(--clr-dark);
   color: var(--clr-light);
 }
 
@@ -70,7 +71,8 @@ label {
 /* IDs */
 
 #JC_logo {
-
+  display: block;
+  size: 50px 50px;
 }
 
 #aboutme {
@@ -86,7 +88,11 @@ label {
 }
 
 #book_list {
-  background-color: var(--clr-accent2);
+  background-color: var(--clr-accent1);
+  opacity: 0.5;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: var(--clr-dark);
   color: var(--clr-light);
 }
 
