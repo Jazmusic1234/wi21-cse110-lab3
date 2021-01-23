@@ -12,10 +12,8 @@
 
     <!--Header and navbar-->
     <header>
-      <div class="JC_logo">
-        <img id="JC_logo" src="images/JC_Logo.png" alt="logo">
-      </div>
       <nav class="nav">
+        <img id="JC_logo" src="images/JC_Logo.png" alt="logo">
         <a href="#aboutme" class="nav__link">About Me</a>
         <a href="#skills" class="nav__link">Skills</a>
         <a href="#projects" class="nav__link">Projects</a>
@@ -25,7 +23,7 @@
 
     <main class="section__dark">
       <img id="picOfMe" src="./images/20190623_120820_HDR.jpg" alt="picture of me">
-      <div><p class="greeting">Hi, I'm Jasmine!</p></div>
+      <div class="greeting"><p>Hi, I'm Jasmine!</p></div>
       <div><p>3rd Year Computer Engineering major at UCSD</p></div>
       <div>
         <a href="https://github.com/Jazmusic1234/CSE110">View the Project on Github</a>
@@ -34,12 +32,13 @@
     <hr/>
   
     <!--About Me-->
-    <sec id="aboutme">
-      <p class="section__title">About Me</p>
-    
+    <section id="aboutme">
+      <div class="section__title"><p>About Me</p></div>
+      
       <div id="quotes">
         <p class="section__subtitle">Favorite quotes:</p>
-        <i>This too shall pass</i><br>
+        <i>This too shall pass</i><br><br>
+        <i>Anyone who has never made a mistake has never tried anything new</i>
         <audio controls>
           <source src="quote.m4a" type="audio/mpeg">
         </audio>
@@ -48,7 +47,7 @@
       <div id="hobbies_interests">
         <p class="section__subtitle">Hobbies/Interests:</p>
         <ul>
-          <li><span style="color:lightgreen">Gardening</span></li>
+          <li>Gardening</li>
           <li>Urban Farming</li>
           <li>Food security</li>
           <li>Electronics repair</li>
@@ -75,12 +74,12 @@
       <video width="320" height="240" controls>
         <source src="632381180.028953.mp4" type="video/mp4">
       </video>
-    </sec>
+    </section>
     
     <hr/>
     
     <!--Skills-->
-    <sec class="section__dark" id="skills">
+    <section class="section__dark" id="skills">
       <p class="section__title">Skills</p>
       <p class="section__subtitle">Top 3</p>
       <ol>
@@ -129,20 +128,20 @@
       <label for="cybersecurity">Cybersecurity</label><br>
       <input type="checkbox" id="ml">
       <label for="ml">Machine Learning</label><br>
-    </sec>
+    </section>
     
     <hr/>
     
     <!--Projects-->
-    <sec id="projects">
+    <section id="projects">
       <p class="section__title">Projects</p>
       <pre>Check out my <a href="https://lizard-lightning-slayer.glitch.me/FinalProject/">portfolio website</a>!</pre>
-    </sec>
+    </section>
     
     <hr/>
     
     <!--Extracurriculars-->
-    <sec class="section__dark" id="ec">
+    <section class="section__dark" id="ec">
       <p class="section__title">Extracurriculars</p>
 
       <div class="ECs">
@@ -179,7 +178,7 @@
         </div>
       </div>
     
-    </sec>
+    </section>
     
     <hr/>
     
