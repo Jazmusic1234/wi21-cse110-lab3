@@ -38,7 +38,7 @@ label {
 }
 
 header {
-  width: 80%;
+  width: 100%;
   height: 80%;
 }
 
@@ -52,15 +52,13 @@ main > p {
   font-family: var(--ff-primary);
 }
 
-section, div, main {
+section, div, main, footer {
   border: 3px solid black;
 }
 
 main {
   margin: 10px 10px 10px 0px;
   top: 200px;
-  position: relative;
-  top: 100px;
 }
 
 h1 {
@@ -98,6 +96,11 @@ li {
 
 iframe, video {
   width: 320px;
+  margin: 10px;
+}
+
+table {
+  margin: auto;
 }
 
 /* Classes */
@@ -111,8 +114,8 @@ iframe, video {
   height: 80px;
 }
 
-.logo {
-  padding: auto;
+img.logo {
+  margin: 20px;
 }
 
 .JC_logo {
@@ -123,7 +126,6 @@ iframe, video {
 .nav {
   overflow: hidden;
   width: 100%;
-  height: 100px;
   text-align: center;
   display: inline-block;
   vertical-align: top;
@@ -132,6 +134,10 @@ iframe, video {
   top: 0;
   border-bottom: 3px solid var(--clr-accent1);
   z-index: 1;
+}
+
+.content {
+  margin-top: 100px;
 }
 
 .nav__link {
@@ -145,6 +151,15 @@ iframe, video {
   font-size: var(--fs-h3);
   font-weight: var(--fw-reg);
   text-decoration: none;
+}
+
+.nav__link:hover {
+  font-weight: var(--fw-bold);
+}
+
+.nav__link:active {
+  text-decoration: underline;
+  font-weight: var(--fw-bold);
 }
 
 *.section__title {
@@ -188,6 +203,8 @@ iframe, video {
 
 .EC {
   flex: 1;
+  margin: 10px;
+  background-color: var(--clr-gray2);
 }
 
 @media (max-width: 800px) {
@@ -198,18 +215,30 @@ iframe, video {
 
 .grid-container {
   display: grid;
-  grid-gap: 50px;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  height: 100%;  
+  grid: 250px / auto auto;
+  grid-gap: 10px;
+  padding: 10px;
 }
-.grid-item {
-  margin: 10%;
+.grid-container > div {
+  margin: 10px;
 }
 
 .skillsToLearn, .top3 {
   margin: 10px;
+  padding: 10px;
   background: var(--clr-accent2);
+}
+
+.contact {
+  text-align: center;
+  padding: 10px;
+}
+
+.survey {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--clr-gray2);
 }
 
 /* IDs */
@@ -230,21 +259,15 @@ iframe, video {
 
 #aboutme { 
   border: 3px solid black;
-  position: relative;
-  top: 100px;
 }
  
 #quotes {
   margin: 20px;
-  position: static;
-  width: 100%;
   background: var(--clr-gray1);
 }
 
 #hobbies_interests {
   margin: 20px;
-  position: static;
-  width: 100%;
   background: var(--clr-gray1);
 }
 
@@ -279,18 +302,13 @@ iframe, video {
 }
 
 #ec {
- position: static;
+  position: static;
 }
 
 /* Attributes */
 
-button[type=button] {
-
-}
-
 input[type=checkbox] {
-  border: 3px solid black;
-  margin: 10px 0 0 0; 
+  margin: 10px 0 0 10px; 
 }
 
 input[type=radio] {
@@ -298,10 +316,10 @@ input[type=radio] {
 }
 
 input[type=text] {
-  
+  border-radius: 5px;
 }
 
 input[type=password] {
-
+  border-radius: 5px;
 }
 
