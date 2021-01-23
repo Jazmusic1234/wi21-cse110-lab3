@@ -53,7 +53,6 @@
           <li>Electronics repair</li>
           <li>Sustainability</li>
           <li>Netflix</li>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/54srZLuYfb0"></iframe>        
           <li>Reading</li>
           <div id="book_list">
             <aside>
@@ -71,63 +70,77 @@
           
         </ul>
       </div>
-      <video width="320" height="240" controls>
-        <source src="632381180.028953.mp4" type="video/mp4">
-      </video>
+      <div class="grid-container">
+        <div class="grid-item"><iframe width="320" height="200" src="https://www.youtube.com/embed/54srZLuYfb0"></iframe></div>
+        <div class="grid-item">
+          <video width="320" height="200" controls>
+            <source src="632381180.028953.mp4" type="video/mp4">
+          </video>
+        </div>  
+      </div>
+      
     </section>
     
     <hr/>
     
     <!--Skills-->
-    <section class="section__dark" id="skills">
+    <section class="section__dark">
       <p class="section__title">Skills</p>
-      <p class="section__subtitle">Top 3</p>
-      <ol>
-        <li>C/C++</li>
-        <code>
-          void helloWorld() {
-            cout &lt;&lt; "Hello World!" &lt;&lt; endl;
-          }
-        </code>
-        <li>Arduino</li>
-        <code>
-          void helloWorld() {
-            Serial.println("Hello World!");
-          }
-        </code>
-        <li>Python</li>
-        <code>
-          def helloWorld():<br>
-            print("Hello World!")<br>
-    
-          helloWorld()
-        </code>
-      </ol>
-      <ul>
-        <li>Java</li>
-        <li>Vim</li>
-        <li>HTMl</li>
-        <li>CSS/Bootstrap</li>
-        <li>Javascript</li>
-        <li>Git</li>
-        <li>Solidworks</li>
-        <li>Adobe XD</li>
-      </ul>
-    
-      <figure>
-        <img src="./images/Main_V2.png" alt="RUF flyer">
-        <figcaption>Flyer for one of my student orgs that I made using Adobe XD</figcaption>
-      </figure>
-    
-      <em>Skills to Learn</em><br>
-      <input type="checkbox" id="react">
-      <label for="react">ReactJS</label><br>
-      <input type="checkbox" id="vue">
-      <label for="vue">VueJS</label><br>
-      <input type="checkbox" id="cybersecurity">
-      <label for="cybersecurity">Cybersecurity</label><br>
-      <input type="checkbox" id="ml">
-      <label for="ml">Machine Learning</label><br>
+      <div id="skills">
+        <div class="top3">
+          <p class="section__subtitle">Top 3</p>
+          <ol>
+            <li>C/C++</li>
+            <code>
+              void helloWorld() {
+                cout &lt;&lt; "Hello World!" &lt;&lt; endl;
+              }
+            </code>
+            <li>Arduino</li>
+            <code>
+              void helloWorld() {
+                Serial.println("Hello World!");
+              }
+            </code>
+            <li>Python</li>
+            <code>
+              def helloWorld():<br>
+                print("Hello World!")<br>
+        
+              helloWorld()
+            </code>
+          </ol>
+        </div>
+        
+        <ul>
+          <li>Java</li>
+          <li>Vim</li>
+          <li>HTMl</li>
+          <li>CSS/Bootstrap</li>
+          <li>Javascript</li>
+          <li>Git</li>
+          <li>Solidworks</li>
+          <li>Adobe XD</li>
+        </ul>
+      
+        <figure>
+          <img src="./images/Main_V2.png" alt="RUF flyer">
+          <figcaption>Flyer for one of my student orgs that I made using Adobe XD</figcaption>
+        </figure>
+      
+        <div class="skillsToLearn">
+          <p class="section__subtitle">Skills to Learn</p>
+          <input type="checkbox" id="react">
+          <label for="react">ReactJS</label><br>
+          <input type="checkbox" id="vue">
+          <label for="vue">VueJS</label><br>
+          <input type="checkbox" id="cybersecurity">
+          <label for="cybersecurity">Cybersecurity</label><br>
+          <input type="checkbox" id="ml">
+          <label for="ml">Machine Learning</label><br>
+        </div>
+        
+      </div>
     </section>
     
     <hr/>
@@ -135,7 +148,7 @@
     <!--Projects-->
     <section id="projects">
       <p class="section__title">Projects</p>
-      <pre>Check out my <a href="https://lizard-lightning-slayer.glitch.me/FinalProject/">portfolio website</a>!</pre>
+      <p>Check out my<a href="https://lizard-lightning-slayer.glitch.me/FinalProject/">portfolio website!</a></p>
     </section>
     
     <hr/>
@@ -150,7 +163,7 @@
             <img class="logo" width="200" src="images/WarrenGrow_Banner.jpg" alt="Warren Grow logo">
             <source media="(min-width: 650px)" srcset="images/WarrenGrow_Logo.jpg">
           </picture>
-          <h3 class="section__subtitle">Warren Grow!</h3>
+          <p class="section__subtitle">Warren Grow!</p>
           <ul>
             <li>Food-insecurity Resource Market: Invited speakers from different food insecurity related organization on and around UCSD campus to speak to 300+ students about how they help combat food insecurity</li>
             <li>Composting: Students and community members can drop off their organic food waste at the garden which we then process into compost for the garden</li>
@@ -162,7 +175,7 @@
             <img class="logo" width="200" src="images/CSA_Final.jpg" alt="CSA logo">
             <source media="(min-width: 400px)" srcset="images/CSA_ABB_Final.png">
           </picture>
-          <h3 class="section__subtitle">Computer Science for Agriculture</h3>
+          <p class="section__subtitle">Computer Science for Agriculture</p>
             Anaerobic Digester Box: Automatic refilling of the anaerobic digester’s reservoir so it didn’t have to be manually refilled
             <ul>
               <li>Wired together the circuit board, Arduino, LCD screen, relay, and sensor</li>
@@ -172,7 +185,7 @@
         </div>
         <div class="EC">
           <img class="logo" src="images/Rogers_logo.png" alt="RUF logo">
-          <h3 class="section__subtitle">Roger's Urban Farmlab</h3>
+          <p class="section__subtitle">Roger's Urban Farmlab</p>
             <iframe width="320" height="240"
               src="https://www.youtube.com/embed/m5VFY3RqRcs"></iframe>
         </div>
